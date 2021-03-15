@@ -18,7 +18,7 @@ $buttonSubmit.onclick = () => {
   const user: User = {
     id: Math.random(),
     name: $inputName.value,
-    email: $inputName.value,
+    email: $inputEmail.value,
   };
 
   addUser(user);
